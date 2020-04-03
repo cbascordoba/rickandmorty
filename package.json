@@ -4,7 +4,8 @@
   "description": "Single page application",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build" : "webpack --mode production",
+    "start" : "webpack-dev-server --open --mode development"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/cbascordoba/rickandmorty/issues"
   },
-  "homepage": "https://github.com/cbascordoba/rickandmorty#readme"
+  "homepage": "https://github.com/cbascordoba/rickandmorty#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "babel-loader": "^8.1.0",
+    "html-webpack-plugin": "^4.0.4",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
 }
