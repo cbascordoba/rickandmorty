@@ -1,0 +1,22 @@
+{
+  "name": "rickandmorty",
+  "version": "1.0.0",
+  "description": "Single page application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbascordoba/rickandmorty.git"
+  },
+  "keywords": [
+    "Javascript"
+  ],
+  "author": "Sebastián Córdoba Omen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cbascordoba/rickandmorty/issues"
+  },
+  "homepage": "https://github.com/cbascordoba/rickandmorty#readme"
+}
